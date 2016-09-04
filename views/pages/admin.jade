@@ -1,0 +1,45 @@
+extends ../layout
+block content
+    .container
+        .row
+            form.form-horizontal(method="post",action="/admin/movie/add")
+                input(type='hidden',name="movie[_id]",value="#{movie._id}")
+                .form-group
+                    label.col-sm-2.control-label(for="inputTitle") Movie Name:
+                    .col-sm-10
+                        input#inputTitle.form-control(type="text",name="movie[title]",value="#{movie.title}")
+                .form-group
+                    label.col-sm-2.control-label(for="inputdirector") Director:
+                    .col-sm-10
+                        input#inputdirector.form-control(type="text",name="movie[director]",value="#{movie.director}")
+                .form-group
+                    label.col-sm-2.control-label(for="inputcountry") Country:
+                    .col-sm-10
+                        input#inputcountry.form-control(type="text",name="movie[country]",value="#{movie.country}")
+                .form-group
+                    label.col-sm-2.control-label(for="inputlanguage") Language:
+                    .col-sm-10
+                        input#inputlanguage.form-control(type="text",name="movie[language]",value="#{movie.language}")
+                .form-group
+                    label.col-sm-2.control-label(for="inputposter") Picture Address:
+                    .col-sm-10
+                        input#inputposter.form-control(type="text",name="movie[poster]",value="#{movie.poster}")
+                .form-group
+                    label.col-sm-2.control-label(for="inputflash") Flash:
+                    .col-sm-10
+                        input#inputflash.form-control(type="text",name="movie[flash]",value="#{movie.flash}")
+                .form-group
+                    label.col-sm-2.control-label(for="inputyear") Year:
+                    .col-sm-10
+                        input#inputyear.form-control(type="text",name="movie[year]",value="#{movie.year}")
+                .form-group
+                    label.col-sm-2.control-label(for="inputdesc") Introduce:
+                    .col-sm-10
+                        textarea#inputdesc.form-control(type="text",name="movie[desc]")=movie.desc
+                .form-group
+                    .col-sm-2
+                        input.btn.btn-primary(type="submit",value="Submit",style='float:right')
+
+
+
+

@@ -1,0 +1,28 @@
+extends ../layout
+block content
+	.container
+		.row
+			table.table.table-hover.table-bordered
+				thead
+					tr
+						th Movie Name
+						th director
+						th country
+						th language
+						th introduce
+						th look
+						th update
+						th delete
+				tbody
+					each item in movies
+						tr(class="item-id-#{item._id}")
+							td #{item.title}
+							td #{item.director}
+							td #{item.country}
+							td #{item.language}
+							td #{item.desc}
+							td: a.btn.btn-primary.btn-samll(href="/movie/#{item._id}",role="button")查看
+							td: a.btn.btn-warning.btn-samll(href="/admin/update/#{item._id}",role="button")修改
+							td: a.btn.btn-danger.btn-samll.del(target="#{item._id}",role="button")删除
+
+	script(src="/js/admin.js")
