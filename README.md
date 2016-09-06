@@ -3,8 +3,11 @@
 
 <B>没有测试的电影swf文件地址，可以用这个试试 http://player.youku.com/player.php/sid/XMTYzMDQ3ODgxMg==/v.swf </B>
 
-1.2016-09-04 第一步，简单功能搭建。
-
+<hr>
+<ul>
+<li><h3>1.2016-09-04 第一步，简单功能搭建。</h3></li>
+</ul>
+<hr>
 #mongodb
 Windows 安装 MongoDB 【ubuntu 安装比较简单，直接sudo apt-get install mongodb】
 
