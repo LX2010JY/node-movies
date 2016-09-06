@@ -5,11 +5,11 @@
 
 <hr>
 <ul>
-<li><h3>1.2016-09-04 第一步，简单功能搭建。</h3></li>
+<li><h3>1. 2016-09-04 第一步，简单功能搭建。</h3></li>
 </ul>
 <hr>
 #mongodb
-<ol>
+<ul>
 Windows 安装 MongoDB 【ubuntu 安装比较简单，直接sudo apt-get install mongodb】
 
 <li>1.下载mongodb，点击安装</li>
@@ -24,5 +24,5 @@ Windows 安装 MongoDB 【ubuntu 安装比较简单，直接sudo apt-get install
 
 
 <li>5.通过net start MongoDB 可以开启mongodb服务，net stop MongoDB 可以关闭服务</li>
-</ol>
+</ul>
 <hr>
