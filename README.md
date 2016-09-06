@@ -17,3 +17,5 @@ Windows 安装 MongoDB 【ubuntu 安装比较简单，直接sudo apt-get install
 
 
 5.通过net start MongoDB 可以开启mongodb服务，net stop MongoDB 可以关闭服务
+
+#没有测试的电影swf文件地址，可以用和这个试试 http://player.youku.com/player.php/sid/XMTYzMDQ3ODgxMg==/v.swf
