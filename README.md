@@ -26,3 +26,4 @@ Windows 安装 MongoDB 【ubuntu 安装比较简单，直接sudo apt-get install
 <li>5.通过net start MongoDB 可以开启mongodb服务，net stop MongoDB 可以关闭服务</li>
 </ul>
 <hr>
+
